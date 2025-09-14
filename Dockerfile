@@ -28,7 +28,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Create uploads folder and set permissions
-RUN mkdir uploads && chmod 775 uploads
+RUN rm -rf uploads && mkdir uploads && chmod 775 uploads
 
 # Expose port 8000 for the FastAPI server
 EXPOSE 8000
