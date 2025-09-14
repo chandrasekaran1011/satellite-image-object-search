@@ -32,8 +32,9 @@ It allows users to upload satellite images, select a model (custom-trained YOLO 
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd <your-project-directory>
+git clone https://github.com/chandrasekaran1011/satellite-image-object-search.git
+cd satellite-image-object-search
+
 ```
 
 ### 2. Create a Python virtual environment
